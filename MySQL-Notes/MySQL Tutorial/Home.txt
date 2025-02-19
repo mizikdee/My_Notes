@@ -1,0 +1,74 @@
+**Common Commands**
+
+1.To display the databases:
+
+syn: show databases;
+
+Example:
+ show databases;
++--------------------+
+| Database           |
++--------------------+
+| employeedb         |
+| information_schema |
+| jasmin             |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+___________________________________________
+2.How to create Database:
+
+syn: create database database_name;
+
+Example:
+ create database Exp;
+Query OK, 1 row affected (0.01 sec)
+
+Verification that a database was created:
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| employeedb         |
+| exp                |
+| information_schema |
+| jasmin             |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+___________________________________________
+3. To select and use the database:
+
+syn: use database_name;
+
+Example:
+ use sakila;
+Database changed
+___________________________________________
+4.To create a table(Database):
+
+syn: create table table_name (col_name1 dataType1, col_name2 dataType2, col_name3 dataType3, .......,col_name(n) dataType(n) );
+
+Example:
+ create table Python (Size int, Location Varchar(30), Age int);
+Query OK, 0 rows affected (0.03 sec)
+___________________________________________
+5.To describe about the table:
+
+syn: desc table_name;
+
+Example:
+ desc Python;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| Size     | int         | YES  |     | NULL    |       |
+| Location | varchar(30) | YES  |     | NULL    |       |
+| Age      | int         | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+

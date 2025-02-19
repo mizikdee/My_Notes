@@ -1,0 +1,27 @@
+**create DB**
+
+The CREATE DATABASE statement is used to create a new SQL database.
+
+Syntax:
+CREATE DATABASE databasename;
+
+Example:
+CREATE DATABASE Mine;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| employeedb         |
+| exp                |
+| information_schema |
+| jasmin             |
+| mine               |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+10 rows in set (0.00 sec)

@@ -1,0 +1,51 @@
+**Drop DB**
+
+The DROP DATABASE statement is used to drop an existing SQL database.
+
+Syntax:
+DROP DATABASE databasename;
+
+Note:
+Be careful before dropping a database. Deleting a database will result in loss of complete information stored in the database!
+
+Example:
+Let us see what are the databases we have and we will drop one among from them
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| employeedb         |
+| exp                |
+| information_schema |
+| jasmin             |
+| mine               |
+| mysql              |
+| performance_schema |
+| sakila             |
+| sys                |
+| world              |
++--------------------+
+10 rows in set (0.00 sec)
+
+Now, we will drop the sakila db from above
+
+Example:
+mysql> DROP DATABASE SAKILA;
+Query OK, 23 rows affected (0.31 sec)
+
+mysql> SHOW DATABASES;
++--------------------+
+| Database           |
++--------------------+
+| employeedb         |
+| exp                |
+| information_schema |
+| jasmin             |
+| mine               |
+| mysql              |
+| performance_schema |
+| sys                |
+| world              |
++--------------------+
+9 rows in set (0.00 sec)
+ 

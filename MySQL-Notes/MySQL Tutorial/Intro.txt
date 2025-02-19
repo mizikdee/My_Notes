@@ -1,0 +1,46 @@
+**What is SQL?**
+
+1.SQL is a standard language for accessing and manipulating databases.
+2.SQL stands for Structured Query Language
+3.SQL lets you access and manipulate databases
+4.SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987.
+___________________________________________
+*What can SQL do**
+
+1.SQL can execute queries against a database
+2.SQL can retrieve data from a database
+3.SQL can insert records in a database
+4.SQL can update records in a database
+5.SQL can delete records from a database
+6.SQL can create new databases
+7.SQL can create new tables in a database
+8.SQL can create stored procedures in a database
+9.SQL can create views in a database
+10.SQL can set permissions on tables, procedures, and views
+___________________________________________
+**SQL is a Standard - BUT....**
+
+1.Although SQL is an ANSI/ISO standard, there are different versions of the SQL language.
+2.However, to be compliant with the ANSI standard, they all support at least the major commands (such as SELECT, UPDATE, DELETE, INSERT, WHERE) in a similar manner.
+
+Note: Most of the SQL database programs also have their own proprietary extensions in addition to the SQL standard!
+___________________________________________
+**Using SQL in Your Web Site**
+
+To build a web site that shows data from a database, you will need:
+
+1.An RDBMS database program (i.e. MS Access, SQL Server, MySQL)
+2.To use a server-side scripting language, like PHP or ASP
+3.To use SQL to get the data you want
+To use HTML / CSS to style the page
+___________________________________________
+**RDBMS**
+
+1.RDBMS stands for Relational Database Management System.
+2.RDBMS is the basis for SQL, and for all modern database systems such as MS SQL Server, IBM DB2, Oracle, MySQL, and Microsoft Access.
+3.The data in RDBMS is stored in database objects called tables.
+4.A table is a collection of related data entries and it consists of columns and rows.
+
+Example:
+SELECT * FROM Tablename;
+___________________________________________

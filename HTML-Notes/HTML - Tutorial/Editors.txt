@@ -1,0 +1,21 @@
+**HTML Using Notepad or TextEdit**
+______________________________________
+1.Web pages can be created and modified by using professional HTML editors.
+
+2.However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).
+
+3.We believe that using a simple text editor is a good way to learn HTML.
+
+4.Follow the steps below to create your first web page with Notepad or TextEdit.
+______________________________________
+
+**Steps to be followed**
+
+#For Windows
+______________________________________
+Step 1: Open Notepad (PC)  //For Mac Open TextEdit
+Step 2: Write Some HTML Code
+Step 3: Save the HTML Page
+Step 4: View the HTML Page in Your Browser
+______________________________________
+

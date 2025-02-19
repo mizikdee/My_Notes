@@ -1,0 +1,192 @@
+**HTML Styles - CSS**
+
+1.CSS stands for Cascading Style Sheets.
+2.CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+
+#CSS = Styles and Colors
+
+Q1.What is CSS?
+A.Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+________________
+**Using CSS**
+
+#CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+The most common way to add CSS, is to keep the styles in external CSS files. 
+______________________________________
+**Inline CSS**
+
+1.An inline CSS is used to apply a unique style to a single HTML element.
+2.An inline CSS uses the style attribute of an HTML element.
+3.The following example sets the text color of the <h1> element to blue, and the text color of the <p> element to red:
+
+Example:
+<h1 style="color:blue;">A Blue Heading</h1>
+<p style="color:red;">A red paragraph.</p>
+______________________________________
+**Internal CSS**
+
+1.An internal CSS is used to define a style for a single HTML page.
+2.An internal CSS is defined in the <head> section of an HTML page, within a <style> element.
+3.The following example sets the text color of ALL the <h1> elements (on that page) to blue, and the text color of ALL the <p> elements to red. In addition, the page will be displayed with a "powderblue" background color: 
+
+Example:
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {background-color: powderblue;}
+            h1   {color: blue;}
+            p    {color: red;}
+        </style>
+    </head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+</body>
+</html>
+______________________________________
+**External CSS**
+
+1.An external style sheet is used to define the style for many HTML pages.
+2.To use an external style sheet, add a link to it in the <head> section of each HTML page:
+
+Example:
+<!DOCTYPE html>
+<html>
+        <head>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+        </body>
+</html>
+
+3.The external style sheet can be written in any text editor. The file must not contain any HTML code, and must be saved with a .css extension.
+4.Here is what the "styles.css" file looks like:
+
+Example:
+
+"styles.css":
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+______________________________________
+**CSS Colors, Fonts and Sizes**
+
+1.We will demonstrate some commonly used CSS properties.
+2.The CSS color property defines the text color to be used.
+3.The CSS font-family property defines the font to be used.
+4.The CSS font-size property defines the text size to be used.
+
+Example:
+
+Use of CSS color, font-family and font-size properties:
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+______________________________________
+**CSS Border**
+
+The CSS border property defines a border around an HTML element.
+
+Example:
+
+Use of CSS border property: 
+
+p {
+  border: 2px solid powderblue;
+}
+______________________________________
+**CSS Padding**
+
+The CSS padding property defines a padding (space) between the text and the border.
+
+Example:
+
+Use of CSS border and padding properties:
+
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+______________________________________
+**CSS Margin**
+
+The CSS margin property defines a margin (space) outside the border.
+
+Example:
+
+Use of CSS border and margin properties:
+
+p {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+______________________________________
+**Link to External CSS**
+
+External style sheets can be referenced with a full URL or with a path relative to the current web page.
+
+Example:
+
+This example uses a full URL to link to a style sheet:
+
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+Example:
+
+This example links to a style sheet located in the html folder on the current web site: 
+
+<link rel="stylesheet" href="/html/styles.css">
+
+Example:
+
+This example links to a style sheet located in the same folder as the current page:
+
+<link rel="stylesheet" href="styles.css">
+______________________________________
+**Chapter Summary**
+
+1.Use the HTML style attribute for inline styling
+2.Use the HTML <style> element to define internal CSS
+3.Use the HTML <link> element to refer to an external CSS file
+4.Use the HTML <head> element to store <style> and <link> elements
+5.Use the CSS color property for text colors
+6.Use the CSS font-family property for text fonts
+7.Use the CSS font-size property for text sizes
+8.Use the CSS border property for borders
+9.Use the CSS padding property for space inside the border
+10.Use the CSS margin property for space outside the border

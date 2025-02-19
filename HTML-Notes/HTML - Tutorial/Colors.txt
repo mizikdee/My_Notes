@@ -1,0 +1,166 @@
+**HTML Colors**
+
+1.HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.
+2.In HTML, a color can be specified by using a color name:
+3.HTML supports 140 standard color names.
+Examples:
+Tomato
+Orange
+DodgerBlue
+MediumSeaGreen
+Gray
+SlateBlue
+Violet
+LightGray
+________________________________________________
+**Background Color**
+You can set the background color for HTML elements:
+
+Example:
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+<p style="background-color:Tomato;">Lorem ipsum...</p>
+________________________________________________
+**Text Color**
+You can set the color of text:
+
+Example:
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+________________________________________________
+**Border Color**
+You can set the color of borders:
+
+Example:
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+________________________________________________
+**Color Values**
+In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
+
+The following three <div> elements have their background color set with RGB, HEX, and HSL values:
+
+rgb(255, 99, 71)
+#ff6347
+hsl(9, 100%, 64%)
+
+The following two <div> elements have their background color set with RGBA and HSLA values, which add an Alpha channel to the color (here we have 50% transparency):
+
+rgba(255, 99, 71, 0.5)
+hsla(9, 100%, 64%, 0.5)
+
+Example:
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
+________________________________________________
+**HTML RGB and RGBA Colors**
+
+1.An RGB color value represents RED, GREEN, and BLUE light sources.
+2.An RGBA color value is an extension of RGB with an Alpha channel (opacity).
+3.In HTML, a color can be specified as an RGB value, using this formula:
+
+Formula:
+rgb(red, green, blue)
+4.Each parameter (red, green, and blue) defines the intensity of the color with a value between 0 and 255.
+5.This means that there are 256 x 256 x 256 = 16777216 possible colors!
+6.For example, rgb(255, 0, 0) is displayed as red, because red is set to its highest value (255), and the other two (green and blue) are set to 0.
+7.Another example, rgb(0, 255, 0) is displayed as green, because green is set to its highest value (255), and the other two (red and blue) are set to 0.
+8.To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+9.To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
+
+Examples:
+rgb(255, 0, 0)
+rgb(0, 0, 255)
+rgb(60, 179, 113)
+rgb(238, 130, 238)
+rgb(255, 165, 0)
+rgb(106, 90, 205)
+
+Shades of Gray
+Shades of gray are often defined using equal values for all three parameters:
+
+Examples:
+rgb(60, 60, 60)
+rgb(100, 100, 100)
+rgb(140, 140, 140)
+rgb(180, 180, 180)
+rgb(200, 200, 200)
+rgb(240, 240, 240)
+________________________________________________
+**RGBA Color Values**
+1.RGBA color values are an extension of RGB color values with an Alpha channel - which specifies the opacity for a color.
+2.An RGBA color value is specified with:
+3.rgba(red, green, blue, alpha)
+4.The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+
+Examples:
+rgba(255, 99, 71, 0)
+rgba(255, 99, 71, 0.2)
+rgba(255, 99, 71, 0.4)
+rgba(255, 99, 71, 0.6)
+rgba(255, 99, 71, 0.8)
+rgba(255, 99, 71, 1)
+________________________________________________
+**HTML HEX Colors**
+
+1.A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.
+2.In HTML, a color can be specified using a hexadecimal value in the form:
+
+Example:
+#rrggbb
+
+3.Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+4.For example, #ff0000 is displayed as red, because red is set to its highest value (ff), and the other two (green and blue) are set to 00.
+5.Another example, #00ff00 is displayed as green, because green is set to its highest value (ff), and the other two (red and blue) are set to 00.
+6.To display black, set all color parameters to 00, like this: #000000.
+7.To display white, set all color parameters to ff, like this: #ffffff.
+________________________________________________
+**Shades of Gray**
+Shades of gray are often defined using equal values for all three parameters:
+
+Examples:
+#404040
+#686868
+#a0a0a0
+#bebebe
+#dcdcdc
+#f8f8f8
+________________________________________________
+**HTML HSL and HSLA Colors**
+
+1.HSL stands for hue, saturation, and lightness.
+2.HSLA color values are an extension of HSL with an Alpha channel (opacity).
+3.In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+Syntax:
+hsl(hue, saturation, lightness)
+4.Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+5.Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+6.Lightness is also a percentage value. 0% is black, and 100% is white.
+
+Examples:
+hsl(0, 100%, 50%)
+hsl(240, 100%, 50%)
+hsl(147, 50%, 47%)
+hsl(300, 76%, 72%)
+hsl(39, 100%, 50%)
+hsl(248, 53%, 58%)
+________________________________________________
+**Saturation**
+
+1.Saturation can be described as the intensity of a color.
+2.100% is pure color, no shades of gray.
+3.50% is 50% gray, but you can still see the color.
+4.0% is completely gray; you can no longer see the color.
+
+Examples:
+hsl(0, 100%, 50%)
+hsl(0, 80%, 50%)
+hsl(0, 60%, 50%)
+hsl(0, 40%, 50%)
+hsl(0, 20%, 50%)
+hsl(0, 0%, 50%)
+________________________________________________
